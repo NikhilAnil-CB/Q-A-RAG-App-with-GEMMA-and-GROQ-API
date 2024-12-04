@@ -1,0 +1,13 @@
+prefix=/home/habile/Desktop/GEMMA/venv
+exec_prefix=/home/habile/Desktop/GEMMA/venv
+libdir=/home/habile/Desktop/GEMMA/venv/lib
+sharedlibdir=/home/habile/Desktop/GEMMA/venv/lib
+includedir=/home/habile/Desktop/GEMMA/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
